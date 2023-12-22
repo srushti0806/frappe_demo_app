@@ -1,0 +1,104 @@
+{
+ "cards_label": "Link Cards",
+ "category": "Modules",
+ "charts": [],
+ "creation": "2023-12-14 14:54:09.999366",
+ "developer_mode_only": 0,
+ "disable_user_customization": 0,
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "extends_another_page": 0,
+ "hide_custom": 0,
+ "idx": 0,
+ "is_default": 0,
+ "is_standard": 1,
+ "label": "Programing Workspace",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Demo Doctype",
+   "link_to": "Demo Doctype",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Property Doc",
+   "link_to": "Property Doc",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "ABC",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Property Doc",
+   "link_to": "Property Doc",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Srushti",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Example Doctype",
+   "link_to": "Example Doctype",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2023-12-22 11:10:07.988718",
+ "modified_by": "Administrator",
+ "module": "Programing Module",
+ "name": "Programing Workspace",
+ "owner": "Administrator",
+ "pin_to_bottom": 0,
+ "pin_to_top": 0,
+ "shortcuts": [
+  {
+   "doc_view": "",
+   "label": "Demo Doctype",
+   "link_to": "Demo Doctype",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "",
+   "label": "Property Doc",
+   "link_to": "Property Doc",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "",
+   "label": "Example Doctype",
+   "link_to": "Example Doctype",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "",
+   "label": "Dashboard",
+   "link_to": "Programing Dashboard",
+   "type": "Dashboard"
+  }
+ ],
+ "shortcuts_label": "Shortcut"
+}

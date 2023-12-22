@@ -1,0 +1,174 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-12-18 11:32:39.501932",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "personal_information_section",
+  "f_name",
+  "l_name",
+  "address",
+  "contact_no",
+  "email",
+  "education_detail_section",
+  "10th_per",
+  "12th_per",
+  "graduction_per",
+  "column_break_i8xy7",
+  "10th_pass_year",
+  "12th_pass_year",
+  "graduction_year",
+  "upload_documents_section",
+  "id_proof",
+  "address_proof",
+  "10th_marksheet",
+  "12th_marksheet",
+  "graduation_marksheet",
+  "section_break_o91ir",
+  "fees",
+  "submit"
+ ],
+ "fields": [
+  {
+   "fieldname": "personal_information_section",
+   "fieldtype": "Section Break",
+   "label": "Personal Information"
+  },
+  {
+   "fieldname": "f_name",
+   "fieldtype": "Data",
+   "label": "F Name"
+  },
+  {
+   "fieldname": "l_name",
+   "fieldtype": "Data",
+   "label": "L Name"
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Text",
+   "label": "Address"
+  },
+  {
+   "fieldname": "contact_no",
+   "fieldtype": "Int",
+   "label": "Contact No"
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "label": "Email"
+  },
+  {
+   "fieldname": "education_detail_section",
+   "fieldtype": "Section Break",
+   "label": "Education Detail"
+  },
+  {
+   "fieldname": "10th_per",
+   "fieldtype": "Int",
+   "label": "10th Per"
+  },
+  {
+   "fieldname": "12th_per",
+   "fieldtype": "Int",
+   "label": "12th Per"
+  },
+  {
+   "fieldname": "graduction_per",
+   "fieldtype": "Int",
+   "label": "Graduction per"
+  },
+  {
+   "fieldname": "column_break_i8xy7",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "10th_pass_year",
+   "fieldtype": "Date",
+   "label": "10th Pass Year"
+  },
+  {
+   "fieldname": "12th_pass_year",
+   "fieldtype": "Date",
+   "label": "12th Pass Year"
+  },
+  {
+   "fieldname": "graduction_year",
+   "fieldtype": "Date",
+   "label": "Graduction Year"
+  },
+  {
+   "fieldname": "upload_documents_section",
+   "fieldtype": "Section Break",
+   "label": "Upload Documents"
+  },
+  {
+   "fieldname": "id_proof",
+   "fieldtype": "Attach",
+   "label": "Id Proof"
+  },
+  {
+   "fieldname": "address_proof",
+   "fieldtype": "Attach",
+   "label": "Address Proof"
+  },
+  {
+   "fieldname": "10th_marksheet",
+   "fieldtype": "Attach",
+   "label": "10th Marksheet"
+  },
+  {
+   "fieldname": "12th_marksheet",
+   "fieldtype": "Attach",
+   "label": "12th Marksheet"
+  },
+  {
+   "fieldname": "graduation_marksheet",
+   "fieldtype": "Attach",
+   "label": "Graduation Marksheet"
+  },
+  {
+   "fieldname": "section_break_o91ir",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "100",
+   "fieldname": "fees",
+   "fieldtype": "Currency",
+   "label": "Fees",
+   "read_only": 1
+  },
+  {
+   "fieldname": "submit",
+   "fieldtype": "Button",
+   "label": "Submit"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-12-18 11:35:38.040406",
+ "modified_by": "Administrator",
+ "module": "Programing Module",
+ "name": "Example Doctype",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}
